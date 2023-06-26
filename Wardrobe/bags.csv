@@ -1,97 +1,97 @@
 Name,Variation,DIY,Buy,Sell,Color 1,Color 2,Size,Miles Price,Source,Source Notes,Seasonal Availability,Version,Style,Label Themes,Villager Equippable,Filename,Internal ID,Unique Entry ID,Purchasable
-acorn pochette,Brown,True,NFS,2400,Brown,Green,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale,False,BagShoulderAcorn0,7492,XiC7bNzTBAdb8zWwr,False
-basket pack,Green,True,NFS,2400,Green,Green,1x1,,Crafting,,All Year,1.0.0,Simple,outdoorsy; work,False,BagBackpackBasket0,7506,BW764rj9aH3QL6GRH,False
-bug cage,Green,False,NFS,122,Green,White,1x1,,Bug-Off,,All Year,1.0.0,Active,outdoorsy; vacation,False,BagShoulderCage0,7479,nrkEKkL46YsQYcYjp,False
-Bunny Day bag,None,True,NFS,2400,Colorful,Colorful,1x1,,Crafting,,All Year,1.1.0a,Active,fairy tale; party; theatrical,False,BagBackpackEgg0,12447,YGofzAZknSTYWmfWM,False
-butterfly backpack,Pink,False,NFS,210,Pink,Yellow,1x1,,Bug-Off,,All Year,1.0.0,Cute,everyday; formal; party,False,BagBackpackButterfly0,7502,unsmeHZemRaTnq62z,False
-canvas backpack,White,False,1300,325,White,Orange,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagBackpackTote0,7509,ZtgYddBwpZfGMjewu,True
-cherry-blossom pochette,Pink,True,NFS,2400,Pink,Pink,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale,False,BagShoulderCherryblossoms0,7490,wwkZdhj9HzxZiqHys,False
-cloth shoulder bag,Blue,False,1400,350,Light blue,Light blue,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagShoulderCanvas0,7487,DzoRrArWrKtzn6Xzc,True
-cloth shoulder bag,Orange,False,1400,350,Orange,Orange,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagShoulderCanvas1,12013,dcpCgBwji4QCYAy8k,True
-cloth shoulder bag,Ivory,False,1400,350,White,White,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagShoulderCanvas2,12014,NfkYKg5NoaWKBEpzN,True
-crossbody bag,Pink,False,700,175,Pink,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody0,7483,zXtyCFHwWjnChTami,True
-crossbody bag,Green,False,700,175,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody1,11980,tbfNwy8RmGztJdAnn,True
-crossbody bag,Yellow,False,700,175,Yellow,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody2,11981,zX6ZX4puTojGuJgGj,True
-crossbody bag,White,False,700,175,White,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody3,11982,FsyHb5QAf8DDvPC7y,True
-crossbody boston bag,Red,False,1680,420,Red,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderDrum0,7485,8MwDxuHHvYM3XJpmy,True
-crossbody boston bag,Blue,False,1680,420,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderDrum1,12011,w98ZrTQWiRMHyveaa,True
-DAL backpack,Blue,False,NFS,1010,Blue,Black,1x1,,Dodo Airlines,Received in mail from DAL after taking certain numbers of flights,All Year,1.0.0,Cool,outdoorsy; vacation,False,BagBackpackDal0,12131,3mGmqSPj5YPujiDgD,False
-dry bag,Yellow,False,1040,260,Yellow,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackDry0,7471,iwTpuxykXjSBi8b9a,True
-dry bag,Blue,False,1040,260,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackDry1,11964,cMoNDoZx2sdfD6Haz,True
-evening bag,Pink,False,1250,312,Pink,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderParty0,7305,tZhGqzKpEeEweTZi7,True
-evening bag,Blue,False,1250,312,Blue,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderParty1,11976,SoJkNi7GNiW28tYuG,True
-evening bag,Black,False,1250,312,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderParty2,11977,x9Z63uLS8cHdsoczj,True
-extra-large backpack,Red,False,2100,525,Red,Red,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain0,7505,sjT2tZJCMpWQNmhTy,True
-extra-large backpack,Green,False,2100,525,Green,Green,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain1,11971,MKeBKrETSTs4tyrg4,True
-extra-large backpack,Black,False,2100,525,Black,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain2,11972,HqReXLwGPigWMiJbS,True
-extra-large backpack,Blue,False,2100,525,Blue,Blue,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain3,11973,vvEqA5aMBGyycpQFz,True
-faux-fur bag,Pink,False,1400,350,Pink,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderFakefur0,7480,FyneYzGmHW7SyoHn7,True
-faux-fur bag,Purple,False,1400,350,Purple,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderFakefur1,12003,gH3fn5rkmCrekWoJB,True
-fish pochette,Blue,False,NFS,210,Light blue,Blue,1x1,,Fishing Tourney,,All Year,1.0.0,Cute,formal; party,False,BagShoulderFish0,7477,CrFcdF3rXiaiiajEB,False
-foldover-top backpack,Green,False,1300,325,Green,Beige,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid0,7507,nkXJ2eRThdt4vEpFb,True
-foldover-top backpack,Blue,False,1300,325,Blue,Light blue,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid1,12016,M8i2DNwxgXKWADAtW,True
-foldover-top backpack,Gray,False,1300,325,Gray,White,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid2,12017,Z8WFCNZodHtW2DBPB,True
-foldover-top backpack,Pink,False,1300,325,Pink,Purple,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid3,12018,nD9TYBr8sw4rhLAyG,True
-gumdrop shoulder bag,Pop,False,2000,500,Pink,Green,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; comfy,False,BagShoulderPattern0,7486,mQZCwxcr6z3hq5Dgm,True
-gumdrop shoulder bag,Cool,False,2000,500,Purple,Light blue,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; comfy,False,BagShoulderPattern1,12012,JxHQbqWH73Q3GYKT8,True
-hand-knit pouch,Green,False,1250,312,Green,Green,1x1,,Kicks,,All Year,1.0.0,Elegant,vacation,False,BagShoulderRace0,7482,taTKqY3xif2LhShrf,True
-hand-knit pouch,Purple,False,1250,312,Purple,Purple,1x1,,Kicks,,All Year,1.0.0,Elegant,vacation,False,BagShoulderRace1,12004,GLLrMeJCPd8Xn7fdr,True
-hard-shell backpack,Blue,False,1680,420,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Cool,outdoorsy; work,False,BagBackpackHardshell0,7512,LETQjE3yFDKze4ntv,True
-hard-shell backpack,Red,False,1680,420,Red,Black,1x1,,Kicks,,All Year,1.0.0,Cool,outdoorsy; work,False,BagBackpackHardshell1,10184,qdP3rmZ7P7HgA2cin,True
-hard-shell backpack,Silver,False,1680,420,Gray,Black,1x1,,Kicks,,All Year,1.0.0,Cool,outdoorsy; work,False,BagBackpackHardshell2,11946,yxnDx8JQqzZDM66oR,True
-knapsack,Blue,False,630,157,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackKnapsack0,7508,XbKqQChpAJXng37Mr,True
-knapsack,Black,False,630,157,Black,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackKnapsack1,12019,Fx4M2zpFTWGww54rw,True
-knitted-grass backpack,Green,True,NFS,400,Green,Brown,1x1,,Crafting,,All Year,1.0.0,Elegant,outdoorsy; comfy; vacation,False,BagBackpackGrass0,7511,xM5iaYn4gbZoR94Qm,False
-log pack,Brown,True,NFS,960,Brown,Beige,1x1,,Crafting,,All Year,1.0.0,Simple,fairy tale; outdoorsy,False,BagBackpackWood0,7498,rDDM48hSfsSbcp92u,False
-maple-leaf pochette,Red,True,NFS,2400,Orange,Orange,1x1,,Crafting,,All Year,1.0.0,Simple,fairy tale,False,BagShoulderMaple0,7491,HJDH4dCPMQY9qQanL,False
-messenger bag,Green,False,840,210,Green,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderMessenger0,7470,7mPZ9PnTd46r65DXx,True
-messenger bag,Orange,False,840,210,Orange,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderMessenger1,11978,sgxnCe87EdtdoKved,True
-messenger bag,Black,False,840,210,Black,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderMessenger2,11979,ZuwiM4DzJF5Rsg46x,True
-mini pleather bag,White,False,1600,400,White,White,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagBackpackSmall0,7504,FyrYDDhzABDegtZ6n,True
-mini pleather bag,Black,False,1600,400,Black,Black,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagBackpackSmall1,12015,hYJk97FFi4zJGQ5cH,True
-Mom's knapsack,M,False,NFS,175,Yellow,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt0,7510,szhWnj6jpymTsKce8,False
-Mom's knapsack,Flowers,False,NFS,175,Gray,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt1,12148,gqy4s4zFowLbNKTd2,False
-Mom's knapsack,Polka dots,False,NFS,175,Pink,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt2,12149,Hkju8Bjb8Kaamsu3j,False
-Mom's knapsack,Colorful quilt design,False,NFS,175,Colorful,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt3,12150,6uKkNZRz7E8gkSiBF,False
-Mom's knapsack,Cherries,False,NFS,175,Light blue,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt4,12151,46PX3NMjAdrNiRQXb,False
-Mom's knapsack,Denim with stripes,False,NFS,175,Blue,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt5,12152,hj8ixCKXNWBnGZSrw,False
-Mom's knapsack,Forest print,False,NFS,175,White,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt6,12153,E3XrB5LbBTu795xbM,False
-Mom's knapsack,Chick,False,NFS,175,Orange,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt7,12154,jCi92aiMtZB92idfQ,False
-Nook Inc. knapsack,Brown,False,NFS,4000,Brown,Yellow,1x1,800.0,Nook Miles Shop,,All Year,1.0.0,Gorgeous,everyday,False,BagBackpackNook0,9761,zQh6chGG66h4f5JbX,False
-outdoor backpack,Avocado,False,1560,390,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackOutdoor0,7501,CAsQFPPeo3vBGpHSo,True
-outdoor backpack,Orange,False,1560,390,Orange,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackOutdoor1,11969,hiF7bqmoudyFJPcWG,True
-outdoor backpack,Navy blue,False,1560,390,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackOutdoor2,11970,qd8DJb8mX5zhewgyn,True
-pleather crossbody bag,Navy blue,False,1120,280,Blue,Brown,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; work,False,BagBackpackBodybag0,7484,YQD8XMuvDbymAeKxt,True
-pleather crossbody bag,Black,False,1120,280,Black,White,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; work,False,BagBackpackBodybag1,12005,QDPYGrpFNNir49uBe,True
-pleather fringe bag,Camel,False,2400,600,Brown,Brown,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagShoulderFringe0,7481,7RYHreaA7o9huubNu,True
-pleather fringe bag,White,False,2400,600,White,White,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagShoulderFringe1,12010,fiM98m9CGgi6iATkQ,True
-pleather shoulder bag,Brown,False,2400,600,Brown,Brown,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal,False,BagShoulderLeather0,7476,9AqRYq83NRMxrEWiD,True
-pleather shoulder bag,Navy blue,False,2400,600,Blue,Blue,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal,False,BagShoulderLeather1,12009,ZKgcPhGYErHShMrGR,True
-retro sports bag,Blue,False,1400,350,White,Blue,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSports0,7302,vY7qcZFdWb3HgSv7L,True
-retro sports bag,Red,False,1400,350,White,Red,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSports1,12007,Lqtjq3rWFoy4Dv39C,True
-retro sports bag,Black,False,1400,350,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSports2,12008,nGhHjk4GEKSQwvARA,True
-sacoche bag,Blue,False,980,245,Blue,Green,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSacosh0,7304,n82fhWWNSv8kyFJc2,True
-sacoche bag,Red,False,980,245,Red,Yellow,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSacosh1,11974,LYnLwBnwTYcMp4fr9,True
-sacoche bag,Black,False,980,245,Black,White,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSacosh2,11975,NRYqQLN2Beq4jpDBJ,True
-shellfish pochette,White,True,NFS,10800,White,White,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale; vacation,False,BagShoulderShell0,7494,XEsQxMf7k9qvjYxPF,False
-snowflake pochette,White,True,NFS,2400,Light blue,White,1x1,,Crafting,,All Year,1.0.0,Elegant,fairy tale; party; vacation,False,BagShoulderSnow0,7493,gW7R4HX8hjZEHAFtB,False
-square backpack,Yellow,False,1300,325,Yellow,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackSquare0,7500,2RYepaMxTnXMZ9tXg,True
-square backpack,Pink,False,1300,325,Pink,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackSquare1,11967,wN6jaJRRvg6cQZXhk,True
-square backpack,Green,False,1300,325,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackSquare2,11968,rJain6G9X749mG5p7,True
-star pochette,Yellow,True,NFS,3000,Yellow,Yellow,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale; party; vacation,False,BagShoulderStar0,7489,3WQ8vSWtHMjZ6YPtR,False
-straw pochette,Brown,False,980,245,Brown,Brown,1x1,,Kicks,,All Year,1.0.0,Simple,comfy; vacation,False,BagShoulderRattan0,7488,CGs3z4dKEkH82FDyq,True
-studded backpack,Black,False,1560,390,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; goth,False,BagBackpackStuds0,7503,mTMCDJnwtFJzvQ9rs,True
-studded backpack,White,False,1560,390,White,Gray,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; goth,False,BagBackpackStuds1,12006,e6iev2NrSfaxSg5nr,True
-tackle bag,Blue,False,NFS,175,Blue,Orange,1x1,,Fishing Tourney,,All Year,1.0.0,Active,outdoorsy; sporty; work,False,BagShoulderFishing0,7478,prkWCjgn7gTK4X8QH,False
-tool bag,Black,False,910,227,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; work,False,BagShoulderTool0,7497,KiXvv8fvv7CN5sFDx,True
-town backpack,Green,False,1040,260,Green,Green,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown0,6838,sm5eKnwyeNyKGXQLC,True
-town backpack,Orange,False,1040,260,Orange,Orange,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown1,6839,aZasytqebQRikaZZZ,True
-town backpack,Blue,False,1040,260,Blue,Blue,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown2,11944,WGhvofsBw6pFs5c93,True
-town backpack,Red,False,1040,260,Red,Red,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown3,11945,wkeZwbrp9BoHTEPRZ,True
-travel pouch,Pink,False,840,210,Pink,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel0,2550,ygrWBZtknqDLLH8Rn,True
-travel pouch,Green,False,840,210,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel1,12000,oX3GfBwtMfcQ4STtd,True
-travel pouch,Light blue,False,840,210,Light blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel2,12001,SSHDSgfSasCP6AgmW,True
-travel pouch,Purple,False,840,210,Purple,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel3,12002,HTjXg6MXwPZCwEtmJ,True
-traveler's backpack,Orange,False,2940,735,Orange,Beige,1x1,,Kicks,,All Year,1.0.0,Simple,fairy tale; outdoorsy; work,False,BagBackpackJourney0,7499,ag2m7kcBg83aCARGE,True
-traveler's backpack,Blue,False,2940,735,Blue,Beige,1x1,,Kicks,,All Year,1.0.0,Simple,fairy tale; outdoorsy; work,False,BagBackpackJourney1,11965,iprTWWTSARJtHTKqF,True
-traveler's backpack,Brown,False,2940,735,Brown,Beige,1x1,,Kicks,,All Year,1.0.0,Simple,fairy tale; outdoorsy; work,False,BagBackpackJourney2,11966,ehhBAiZqTHaTExHYP,True
+acorn pochette,Brown,True,,2400,Brown,Green,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale,False,BagShoulderAcorn0,7492,XiC7bNzTBAdb8zWwr,False
+basket pack,Green,True,,2400,Green,Green,1x1,,Crafting,,All Year,1.0.0,Simple,outdoorsy; work,False,BagBackpackBasket0,7506,BW764rj9aH3QL6GRH,False
+bug cage,Green,False,,122,Green,White,1x1,,Bug-Off,,All Year,1.0.0,Active,outdoorsy; vacation,False,BagShoulderCage0,7479,nrkEKkL46YsQYcYjp,False
+Bunny Day bag,None,True,,2400,Colorful,Colorful,1x1,,Crafting,,All Year,1.1.0a,Active,fairy tale; party; theatrical,False,BagBackpackEgg0,12447,YGofzAZknSTYWmfWM,False
+butterfly backpack,Pink,False,,210,Pink,Yellow,1x1,,Bug-Off,,All Year,1.0.0,Cute,everyday; formal; party,False,BagBackpackButterfly0,7502,unsmeHZemRaTnq62z,False
+canvas backpack,White,False,1300.0,325,White,Orange,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagBackpackTote0,7509,ZtgYddBwpZfGMjewu,True
+cherry-blossom pochette,Pink,True,,2400,Pink,Pink,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale,False,BagShoulderCherryblossoms0,7490,wwkZdhj9HzxZiqHys,False
+cloth shoulder bag,Blue,False,1400.0,350,Light blue,Light blue,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagShoulderCanvas0,7487,DzoRrArWrKtzn6Xzc,True
+cloth shoulder bag,Orange,False,1400.0,350,Orange,Orange,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagShoulderCanvas1,12013,dcpCgBwji4QCYAy8k,True
+cloth shoulder bag,Ivory,False,1400.0,350,White,White,1x1,,Kicks,,All Year,1.0.0,Simple,everyday,False,BagShoulderCanvas2,12014,NfkYKg5NoaWKBEpzN,True
+crossbody bag,Pink,False,700.0,175,Pink,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody0,7483,zXtyCFHwWjnChTami,True
+crossbody bag,Green,False,700.0,175,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody1,11980,tbfNwy8RmGztJdAnn,True
+crossbody bag,Yellow,False,700.0,175,Yellow,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody2,11981,zX6ZX4puTojGuJgGj,True
+crossbody bag,White,False,700.0,175,White,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackBody3,11982,FsyHb5QAf8DDvPC7y,True
+crossbody boston bag,Red,False,1680.0,420,Red,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderDrum0,7485,8MwDxuHHvYM3XJpmy,True
+crossbody boston bag,Blue,False,1680.0,420,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderDrum1,12011,w98ZrTQWiRMHyveaa,True
+DAL backpack,Blue,False,,1010,Blue,Black,1x1,,Dodo Airlines,Received in mail from DAL after taking certain numbers of flights,All Year,1.0.0,Cool,outdoorsy; vacation,False,BagBackpackDal0,12131,3mGmqSPj5YPujiDgD,False
+dry bag,Yellow,False,1040.0,260,Yellow,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackDry0,7471,iwTpuxykXjSBi8b9a,True
+dry bag,Blue,False,1040.0,260,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackDry1,11964,cMoNDoZx2sdfD6Haz,True
+evening bag,Pink,False,1250.0,312,Pink,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderParty0,7305,tZhGqzKpEeEweTZi7,True
+evening bag,Blue,False,1250.0,312,Blue,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderParty1,11976,SoJkNi7GNiW28tYuG,True
+evening bag,Black,False,1250.0,312,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderParty2,11977,x9Z63uLS8cHdsoczj,True
+extra-large backpack,Red,False,2100.0,525,Red,Red,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain0,7505,sjT2tZJCMpWQNmhTy,True
+extra-large backpack,Green,False,2100.0,525,Green,Green,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain1,11971,MKeBKrETSTs4tyrg4,True
+extra-large backpack,Black,False,2100.0,525,Black,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain2,11972,HqReXLwGPigWMiJbS,True
+extra-large backpack,Blue,False,2100.0,525,Blue,Blue,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackMountain3,11973,vvEqA5aMBGyycpQFz,True
+faux-fur bag,Pink,False,1400.0,350,Pink,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderFakefur0,7480,FyneYzGmHW7SyoHn7,True
+faux-fur bag,Purple,False,1400.0,350,Purple,Yellow,1x1,,Kicks,,All Year,1.0.0,Cute,formal; party,False,BagShoulderFakefur1,12003,gH3fn5rkmCrekWoJB,True
+fish pochette,Blue,False,,210,Light blue,Blue,1x1,,Fishing Tourney,,All Year,1.0.0,Cute,formal; party,False,BagShoulderFish0,7477,CrFcdF3rXiaiiajEB,False
+foldover-top backpack,Green,False,1300.0,325,Green,Beige,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid0,7507,nkXJ2eRThdt4vEpFb,True
+foldover-top backpack,Blue,False,1300.0,325,Blue,Light blue,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid1,12016,M8i2DNwxgXKWADAtW,True
+foldover-top backpack,Gray,False,1300.0,325,Gray,White,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid2,12017,Z8WFCNZodHtW2DBPB,True
+foldover-top backpack,Pink,False,1300.0,325,Pink,Purple,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackLid3,12018,nD9TYBr8sw4rhLAyG,True
+gumdrop shoulder bag,Pop,False,2000.0,500,Pink,Green,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; comfy,False,BagShoulderPattern0,7486,mQZCwxcr6z3hq5Dgm,True
+gumdrop shoulder bag,Cool,False,2000.0,500,Purple,Light blue,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; comfy,False,BagShoulderPattern1,12012,JxHQbqWH73Q3GYKT8,True
+hand-knit pouch,Green,False,1250.0,312,Green,Green,1x1,,Kicks,,All Year,1.0.0,Elegant,vacation,False,BagShoulderRace0,7482,taTKqY3xif2LhShrf,True
+hand-knit pouch,Purple,False,1250.0,312,Purple,Purple,1x1,,Kicks,,All Year,1.0.0,Elegant,vacation,False,BagShoulderRace1,12004,GLLrMeJCPd8Xn7fdr,True
+hard-shell backpack,Blue,False,1680.0,420,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Cool,outdoorsy; work,False,BagBackpackHardshell0,7512,LETQjE3yFDKze4ntv,True
+hard-shell backpack,Red,False,1680.0,420,Red,Black,1x1,,Kicks,,All Year,1.0.0,Cool,outdoorsy; work,False,BagBackpackHardshell1,10184,qdP3rmZ7P7HgA2cin,True
+hard-shell backpack,Silver,False,1680.0,420,Gray,Black,1x1,,Kicks,,All Year,1.0.0,Cool,outdoorsy; work,False,BagBackpackHardshell2,11946,yxnDx8JQqzZDM66oR,True
+knapsack,Blue,False,630.0,157,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackKnapsack0,7508,XbKqQChpAJXng37Mr,True
+knapsack,Black,False,630.0,157,Black,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackKnapsack1,12019,Fx4M2zpFTWGww54rw,True
+knitted-grass backpack,Green,True,,400,Green,Brown,1x1,,Crafting,,All Year,1.0.0,Elegant,outdoorsy; comfy; vacation,False,BagBackpackGrass0,7511,xM5iaYn4gbZoR94Qm,False
+log pack,Brown,True,,960,Brown,Beige,1x1,,Crafting,,All Year,1.0.0,Simple,fairy tale; outdoorsy,False,BagBackpackWood0,7498,rDDM48hSfsSbcp92u,False
+maple-leaf pochette,Red,True,,2400,Orange,Orange,1x1,,Crafting,,All Year,1.0.0,Simple,fairy tale,False,BagShoulderMaple0,7491,HJDH4dCPMQY9qQanL,False
+messenger bag,Green,False,840.0,210,Green,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderMessenger0,7470,7mPZ9PnTd46r65DXx,True
+messenger bag,Orange,False,840.0,210,Orange,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderMessenger1,11978,sgxnCe87EdtdoKved,True
+messenger bag,Black,False,840.0,210,Black,Black,1x1,,Kicks,,All Year,1.0.0,Simple,everyday; outdoorsy; sporty,False,BagShoulderMessenger2,11979,ZuwiM4DzJF5Rsg46x,True
+mini pleather bag,White,False,1600.0,400,White,White,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagBackpackSmall0,7504,FyrYDDhzABDegtZ6n,True
+mini pleather bag,Black,False,1600.0,400,Black,Black,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagBackpackSmall1,12015,hYJk97FFi4zJGQ5cH,True
+Mom's knapsack,M,False,,175,Yellow,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt0,7510,szhWnj6jpymTsKce8,False
+Mom's knapsack,Flowers,False,,175,Gray,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt1,12148,gqy4s4zFowLbNKTd2,False
+Mom's knapsack,Polka dots,False,,175,Pink,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt2,12149,Hkju8Bjb8Kaamsu3j,False
+Mom's knapsack,Colorful quilt design,False,,175,Colorful,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt3,12150,6uKkNZRz7E8gkSiBF,False
+Mom's knapsack,Cherries,False,,175,Light blue,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt4,12151,46PX3NMjAdrNiRQXb,False
+Mom's knapsack,Denim with stripes,False,,175,Blue,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt5,12152,hj8ixCKXNWBnGZSrw,False
+Mom's knapsack,Forest print,False,,175,White,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt6,12153,E3XrB5LbBTu795xbM,False
+Mom's knapsack,Chick,False,,175,Orange,Beige,1x1,,Mom,,All Year,1.0.0,Cute,comfy,False,BagBackpackQuilt7,12154,jCi92aiMtZB92idfQ,False
+Nook Inc. knapsack,Brown,False,,4000,Brown,Yellow,1x1,800.0,Nook Miles Shop,,All Year,1.0.0,Gorgeous,everyday,False,BagBackpackNook0,9761,zQh6chGG66h4f5JbX,False
+outdoor backpack,Avocado,False,1560.0,390,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackOutdoor0,7501,CAsQFPPeo3vBGpHSo,True
+outdoor backpack,Orange,False,1560.0,390,Orange,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackOutdoor1,11969,hiF7bqmoudyFJPcWG,True
+outdoor backpack,Navy blue,False,1560.0,390,Blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagBackpackOutdoor2,11970,qd8DJb8mX5zhewgyn,True
+pleather crossbody bag,Navy blue,False,1120.0,280,Blue,Brown,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; work,False,BagBackpackBodybag0,7484,YQD8XMuvDbymAeKxt,True
+pleather crossbody bag,Black,False,1120.0,280,Black,White,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; work,False,BagBackpackBodybag1,12005,QDPYGrpFNNir49uBe,True
+pleather fringe bag,Camel,False,2400.0,600,Brown,Brown,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagShoulderFringe0,7481,7RYHreaA7o9huubNu,True
+pleather fringe bag,White,False,2400.0,600,White,White,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal; party,False,BagShoulderFringe1,12010,fiM98m9CGgi6iATkQ,True
+pleather shoulder bag,Brown,False,2400.0,600,Brown,Brown,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal,False,BagShoulderLeather0,7476,9AqRYq83NRMxrEWiD,True
+pleather shoulder bag,Navy blue,False,2400.0,600,Blue,Blue,1x1,,Kicks,,All Year,1.0.0,Elegant,everyday; formal,False,BagShoulderLeather1,12009,ZKgcPhGYErHShMrGR,True
+retro sports bag,Blue,False,1400.0,350,White,Blue,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSports0,7302,vY7qcZFdWb3HgSv7L,True
+retro sports bag,Red,False,1400.0,350,White,Red,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSports1,12007,Lqtjq3rWFoy4Dv39C,True
+retro sports bag,Black,False,1400.0,350,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSports2,12008,nGhHjk4GEKSQwvARA,True
+sacoche bag,Blue,False,980.0,245,Blue,Green,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSacosh0,7304,n82fhWWNSv8kyFJc2,True
+sacoche bag,Red,False,980.0,245,Red,Yellow,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSacosh1,11974,LYnLwBnwTYcMp4fr9,True
+sacoche bag,Black,False,980.0,245,Black,White,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; sporty,False,BagShoulderSacosh2,11975,NRYqQLN2Beq4jpDBJ,True
+shellfish pochette,White,True,,10800,White,White,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale; vacation,False,BagShoulderShell0,7494,XEsQxMf7k9qvjYxPF,False
+snowflake pochette,White,True,,2400,Light blue,White,1x1,,Crafting,,All Year,1.0.0,Elegant,fairy tale; party; vacation,False,BagShoulderSnow0,7493,gW7R4HX8hjZEHAFtB,False
+square backpack,Yellow,False,1300.0,325,Yellow,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackSquare0,7500,2RYepaMxTnXMZ9tXg,True
+square backpack,Pink,False,1300.0,325,Pink,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackSquare1,11967,wN6jaJRRvg6cQZXhk,True
+square backpack,Green,False,1300.0,325,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy; sporty,False,BagBackpackSquare2,11968,rJain6G9X749mG5p7,True
+star pochette,Yellow,True,,3000,Yellow,Yellow,1x1,,Crafting,,All Year,1.0.0,Cute,fairy tale; party; vacation,False,BagShoulderStar0,7489,3WQ8vSWtHMjZ6YPtR,False
+straw pochette,Brown,False,980.0,245,Brown,Brown,1x1,,Kicks,,All Year,1.0.0,Simple,comfy; vacation,False,BagShoulderRattan0,7488,CGs3z4dKEkH82FDyq,True
+studded backpack,Black,False,1560.0,390,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; goth,False,BagBackpackStuds0,7503,mTMCDJnwtFJzvQ9rs,True
+studded backpack,White,False,1560.0,390,White,Gray,1x1,,Kicks,,All Year,1.0.0,Cool,everyday; goth,False,BagBackpackStuds1,12006,e6iev2NrSfaxSg5nr,True
+tackle bag,Blue,False,,175,Blue,Orange,1x1,,Fishing Tourney,,All Year,1.0.0,Active,outdoorsy; sporty; work,False,BagShoulderFishing0,7478,prkWCjgn7gTK4X8QH,False
+tool bag,Black,False,910.0,227,Black,Yellow,1x1,,Kicks,,All Year,1.0.0,Active,outdoorsy; work,False,BagShoulderTool0,7497,KiXvv8fvv7CN5sFDx,True
+town backpack,Green,False,1040.0,260,Green,Green,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown0,6838,sm5eKnwyeNyKGXQLC,True
+town backpack,Orange,False,1040.0,260,Orange,Orange,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown1,6839,aZasytqebQRikaZZZ,True
+town backpack,Blue,False,1040.0,260,Blue,Blue,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown2,11944,WGhvofsBw6pFs5c93,True
+town backpack,Red,False,1040.0,260,Red,Red,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagBackpackTown3,11945,wkeZwbrp9BoHTEPRZ,True
+travel pouch,Pink,False,840.0,210,Pink,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel0,2550,ygrWBZtknqDLLH8Rn,True
+travel pouch,Green,False,840.0,210,Green,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel1,12000,oX3GfBwtMfcQ4STtd,True
+travel pouch,Light blue,False,840.0,210,Light blue,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel2,12001,SSHDSgfSasCP6AgmW,True
+travel pouch,Purple,False,840.0,210,Purple,Black,1x1,,Kicks,,All Year,1.0.0,Active,everyday; outdoorsy,False,BagShoulderTravel3,12002,HTjXg6MXwPZCwEtmJ,True
+traveler's backpack,Orange,False,2940.0,735,Orange,Beige,1x1,,Kicks,,All Year,1.0.0,Simple,fairy tale; outdoorsy; work,False,BagBackpackJourney0,7499,ag2m7kcBg83aCARGE,True
+traveler's backpack,Blue,False,2940.0,735,Blue,Beige,1x1,,Kicks,,All Year,1.0.0,Simple,fairy tale; outdoorsy; work,False,BagBackpackJourney1,11965,iprTWWTSARJtHTKqF,True
+traveler's backpack,Brown,False,2940.0,735,Brown,Beige,1x1,,Kicks,,All Year,1.0.0,Simple,fairy tale; outdoorsy; work,False,BagBackpackJourney2,11966,ehhBAiZqTHaTExHYP,True

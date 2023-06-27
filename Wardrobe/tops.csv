@@ -219,7 +219,7 @@ comedian's outfit,Green,False,2500,625,Green,Light blue,1x1,,Able Sisters,Availa
 comedian's outfit,Purple,False,2500,625,Purple,Red,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Gorgeous,party; theatrical,True,TopsTexTopYshirtsLComedian5,8101,jAj7k47q7pSFZsvsy,True
 comedian's outfit,Aquamarine,False,2500,625,Green,Blue,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Gorgeous,party; theatrical,True,TopsTexTopYshirtsLComedian6,8102,L4EnDdk6XeZ3uQ2w2,True
 comedian's outfit,White,False,2500,625,White,Green,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Gorgeous,party; theatrical,True,TopsTexTopYshirtsLComedian7,8103,nndgnyqo62cbN6F5b,True
-Coral Nook Inc. aloha shirt,,False,,3000,Pink,White,1x1,600.0,Nook Miles Shop,,All Year,False,1.2.0,Simple,comfy; vacation,True,TopsTexTopYshirtsHNookpink0,12982,LdK5ZHj7QmxKLHAwN,False
+Coral Nook Inc. aloha shirt,,False,,3000,Pink,White,1x1,600,Nook Miles Shop,,All Year,False,1.2.0,Simple,comfy; vacation,True,TopsTexTopYshirtsHNookpink0,12982,LdK5ZHj7QmxKLHAwN,False
 coverall coat,Avocado,False,1120,280,Green,Orange,1x1,,Able Sisters,Available from either Mable's temporary shop or Able Sisters shop,Winter,False,1.0.0,Simple,everyday; outdoorsy,True,TopsTexTopCoatLCoverall0,3680,H6rTbnzfa5t7fo9CB,True
 coverall coat,Navy blue,False,1120,280,Blue,Beige,1x1,,Able Sisters,Available from either Mable's temporary shop or Able Sisters shop,Winter,False,1.0.0,Simple,everyday; outdoorsy,True,TopsTexTopCoatLCoverall1,9288,td7xNu3cNbzkTnSpq,True
 coverall coat,Beige,False,1120,280,Beige,Brown,1x1,,Able Sisters,Available from either Mable's temporary shop or Able Sisters shop,Winter,False,1.0.0,Simple,everyday; outdoorsy,True,TopsTexTopCoatLCoverall2,9289,Gbqoa3Bo7jmiXwGL4,True
@@ -424,7 +424,7 @@ graduation gown,Red,False,3360,840,Black,Red,1x1,,Able Sisters,Available from Ab
 graduation gown,Green,False,3360,840,Black,Green,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Simple,formal; work,True,TopsTexTopCoatLAcademicdress1,8681,R9qmNZa7Pu8WnM7z9,True
 graduation gown,Blue,False,3360,840,Black,Blue,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Simple,formal; work,True,TopsTexTopCoatLAcademicdress2,8682,poM9QmtDyEKinnzWo,True
 graduation gown,Yellow,False,3360,840,Black,Yellow,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Simple,formal; work,True,TopsTexTopCoatLAcademicdress3,8683,Hsm9D22cqJ95CLPnG,True
-Green Nook Inc. aloha shirt,,False,,3000,Green,White,1x1,600.0,Nook Miles Shop,,All Year,False,1.2.0,Simple,comfy; vacation,True,TopsTexTopYshirtsHNookgreen0,12983,Xcqj3mcYopWTQFyCg,False
+Green Nook Inc. aloha shirt,,False,,3000,Green,White,1x1,600,Nook Miles Shop,,All Year,False,1.2.0,Simple,comfy; vacation,True,TopsTexTopYshirtsHNookgreen0,12983,Xcqj3mcYopWTQFyCg,False
 groovy shirt,Orange,False,1440,360,Orange,Orange,1x1,,Able Sisters,Available from either Mable's temporary shop or Able Sisters shop,All Year,False,1.0.0,Cool,everyday; comfy; vacation,True,TopsTexTopYshirtsLPsychedelic0,9832,3PGfoL5ALWXNkyvTW,True
 groovy shirt,Green,False,1440,360,Green,Green,1x1,,Able Sisters,Available from either Mable's temporary shop or Able Sisters shop,All Year,False,1.0.0,Cool,everyday; comfy; vacation,True,TopsTexTopYshirtsLPsychedelic1,11957,GBws5WDp5n8F7RkWj,True
 groovy shirt,Red,False,1440,360,Red,Red,1x1,,Able Sisters,Available from either Mable's temporary shop or Able Sisters shop,All Year,False,1.0.0,Cool,everyday; comfy; vacation,True,TopsTexTopYshirtsLPsychedelic2,11958,cK24j2GGzMTkzCmhf,True
@@ -621,9 +621,9 @@ noble coat,Black,False,4800,1200,Black,Yellow,1x1,,Able Sisters,Available from A
 noble coat,Purple,False,4800,1200,Purple,Yellow,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Gorgeous,fairy tale; formal; party; theatrical,True,TopsTexTopCoatLNoble5,7423,RomZdt5xAnYSAE4YA,True
 noble coat,Yellow,False,4800,1200,Yellow,Yellow,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Gorgeous,fairy tale; formal; party; theatrical,True,TopsTexTopCoatLNoble6,7424,csYKgB26BRTdy8Xf9,True
 noble coat,Red,False,4800,1200,Red,Yellow,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Gorgeous,fairy tale; formal; party; theatrical,True,TopsTexTopCoatLNoble7,7425,8hM7A9mfL472rQr9K,True
-Nook Inc. aloha shirt,,False,,3000,White,Green,1x1,600.0,Nook Miles Shop,,All Year,False,1.0.0,Simple,comfy; vacation,True,TopsTexTopTshirtsHRco,5626,JWa2JANhbML2ZoSpd,False
-Nook Inc. blouson,,False,,4000,Green,Green,1x1,800.0,Nook Miles Shop,,All Year,False,1.0.0,Simple,outdoorsy; work,True,TopsTexTopOuterLRco,5625,3yAwEXCgtLKgxqY3q,False
-Nook Inc. tee,,False,,3000,Yellow,Green,1x1,600.0,Nook Miles Shop,,All Year,False,1.0.0,Simple,everyday; comfy,True,TopsTexTopTshirtsHNook0,9760,NYAF9MhpB9KLAMjzz,False
+Nook Inc. aloha shirt,,False,,3000,White,Green,1x1,600,Nook Miles Shop,,All Year,False,1.0.0,Simple,comfy; vacation,True,TopsTexTopTshirtsHRco,5626,JWa2JANhbML2ZoSpd,False
+Nook Inc. blouson,,False,,4000,Green,Green,1x1,800,Nook Miles Shop,,All Year,False,1.0.0,Simple,outdoorsy; work,True,TopsTexTopOuterLRco,5625,3yAwEXCgtLKgxqY3q,False
+Nook Inc. tee,,False,,3000,Yellow,Green,1x1,600,Nook Miles Shop,,All Year,False,1.0.0,Simple,everyday; comfy,True,TopsTexTopTshirtsHNook0,9760,NYAF9MhpB9KLAMjzz,False
 nurse's jacket,Blue,False,1500,375,Light blue,Light blue,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Simple,work,True,TopsTexTopYshirtsHNurse0,3350,rADFhF2ELotXRS53a,True
 nurse's jacket,White,False,1500,375,White,White,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Simple,work,True,TopsTexTopYshirtsHNurse1,7790,sascmaanGthSqL6bz,True
 nurse's jacket,Pink,False,1500,375,Pink,Pink,1x1,,Able Sisters,Available from Able Sisters shop only,All Year,False,1.0.0,Simple,work,True,TopsTexTopYshirtsHNurse2,7791,YtPPsT2rTDG6m4KWt,True

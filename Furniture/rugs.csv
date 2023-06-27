@@ -1,7 +1,7 @@
 Name,DIY,Buy,Sell,Color 1,Color 2,Size,Miles Price,Source,Source Notes,Version,HHA Concept 1,HHA Concept 2,HHA Series,Tag,Filename,Internal ID,Unique Entry ID,Purchasable
 aluminum rug,False,1500,375,Gray,Gray,3x2,,Saharah,Medium rug,1.0.0,garden,outdoors,None,Slender Rugs,RugRectAluminumM00,7356,vFkuGbx8Sh2MDLEsq,True
 apple rug,True,,1200,Red,Red,3x3,,Crafting,Medium rug,1.0.0,fancy,child's room,fruits,Fruit Rugs,RugOtherAppleM00,7327,5GsjYsaz9NDtQ6QFB,False
-Bell-bag rug,False,,6000,None,None,3x3,1200.0,Nook Miles Shop,Medium rug,1.2.0,expensive,None,None,Park Rugs,RugOtherBellM00,12214,KfRapmYKpizqQWzCg,False
+Bell-bag rug,False,,6000,None,None,3x3,1200,Nook Miles Shop,Medium rug,1.2.0,expensive,None,None,Park Rugs,RugOtherBellM00,12214,KfRapmYKpizqQWzCg,False
 black blocks rug,False,1500,375,Black,Gray,3x3,,Saharah,Medium rug,1.0.0,living room,None,None,Pattern Rugs,RugSquareBlockM03,11104,4kj8FXzMTqvZvqEra,True
 black wooden-deck rug,False,1500,375,Black,Black,3x2,,Saharah,Medium rug,1.0.0,outdoors,None,None,Wood Rugs,RugRectDeckM03,7382,kQDKkEGfdAjqPxd4w,True
 black-design kitchen mat,False,1000,250,Black,Orange,2x1,,Saharah,Small rug,1.0.0,kitchen,None,None,Kitchen Rugs,RugRectNativeKitchenS03,7594,G7CAPiAEpYv6QKbsL,True
@@ -55,9 +55,9 @@ monochromatic dotted rug,False,2000,500,Black,White,4x3,,Saharah,Large rug,1.0.0
 monochromatic wavy rug,False,2000,500,Black,White,4x3,,Saharah,Large rug,1.0.0,living room,child's room,None,Slender Pattern Rugs,RugRectWaveL01,7456,KEQx7PcEYYP5C8QGW,True
 mush rug,False,1500,375,Red,Red,3x3,,Saharah,Medium rug,1.0.0,fancy,child's room,mush,Icon Rugs,RugOtherMushM00,7363,deKdNh2bu4udJ5zYx,True
 natural wooden-deck rug,False,1500,375,Brown,Brown,3x2,,Saharah,Medium rug,1.0.0,outdoors,None,None,Wood Rugs,RugRectDeckM01,7380,4xyhHztk2b3GbRKu6,True
-Nook Inc. botanical rug,False,,5000,None,None,3x3,1000.0,Nook Miles Shop,Medium rug,1.1.0,fancy,living room,None,Park Rugs,RugOtherTanukiM00,12325,WiHenFMXuxj7q2rgq,False
-Nook Inc. rug,False,,5000,Green,Green,3x3,1000.0,Nook Miles Shop,Medium rug,1.0.0,fancy,child's room,None,Park Rugs,RugOtherLeafM00,7364,HFmdcXn43ApSRKdk4,False
-Nook Inc. silk rug,False,,3000,None,None,4x3,600.0,Nook Miles Shop,Large rug,1.1.0,facility,shop,None,Park Rugs,RugRectTanukiL00,12396,XQ72LLzAakWbavKFr,False
+Nook Inc. botanical rug,False,,5000,None,None,3x3,1000,Nook Miles Shop,Medium rug,1.1.0,fancy,living room,None,Park Rugs,RugOtherTanukiM00,12325,WiHenFMXuxj7q2rgq,False
+Nook Inc. rug,False,,5000,Green,Green,3x3,1000,Nook Miles Shop,Medium rug,1.0.0,fancy,child's room,None,Park Rugs,RugOtherLeafM00,7364,HFmdcXn43ApSRKdk4,False
+Nook Inc. silk rug,False,,3000,None,None,4x3,600,Nook Miles Shop,Large rug,1.1.0,facility,shop,None,Park Rugs,RugRectTanukiL00,12396,XQ72LLzAakWbavKFr,False
 orange rug,True,,1200,Orange,Orange,3x3,,Crafting,Medium rug,1.0.0,fancy,child's room,fruits,Fruit Rugs,RugOtherOrangeM00,7330,cXGa9CDpwXcCMzQw2,False
 oval entrance mat,False,1000,250,Blue,Blue,2x1,,Saharah,Small rug,1.0.0,living room,None,None,Slender Rugs,RugOtherCountryS00,7370,TJaw3inQooLN9DXGt,True
 peach checked rug,False,2000,500,Pink,Light blue,4x4,,Saharah,Large rug,1.0.0,living room,child's room,None,Pattern Rugs,RugSquareCheckQuiltL02,7463,QLtQLYyCeg7A28tzC,True

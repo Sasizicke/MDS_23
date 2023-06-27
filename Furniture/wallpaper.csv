@@ -136,7 +136,7 @@ mortar wall,False,,False,3000,750.0,Gray,Gray,,Saharah,,None,,,None,,Stone,zen-s
 mosaic-tile wall,False,,False,1450,362.0,Black,White,,Nook's Cranny,,Four Pane,Grey Wood,Glass,Roller Shades,White,Stone,bathroom,facility,None,Tile Walls,1.0.0,RoomTexWallMosaicTile00,4862,2T8d9sRKwijHhESDS,True
 mossy-garden wall,False,,False,3000,750.0,Green,Green,,Saharah,,None,,,None,,Cloth,zen-style,None,None,Nature Walls,1.0.0,RoomTexWallMoss00,5458,nuuPHdxH5skMPdehs,False
 mush wall,False,,True,,21400.0,Orange,Brown,,Crafting,,Four Pane,White Wood,Glass,Roller Shades,Undyed,Wood,fancy,None,mush,Cloth Walls,1.0.0,RoomTexWallMush00,5164,6xJHWgQgJA9e2n4jJ,False
-Nook Inc. wall,False,,False,,6000.0,White,Light blue,1200.0,Nook Miles Shop,,Four Pane,Dark Wood,Glass,Curtains,White,Plain,fancy,shop,None,Cloth Walls,1.0.0,RoomTexWallFirst00,6004,e7uEC5di7XvHpvkuk,False
+Nook Inc. wall,False,,False,,6000.0,White,Light blue,1200,Nook Miles Shop,,Four Pane,Dark Wood,Glass,Curtains,White,Plain,fancy,shop,None,Cloth Walls,1.0.0,RoomTexWallFirst00,6004,e7uEC5di7XvHpvkuk,False
 ocean-horizon wall,True,Synchro,False,3000,750.0,Blue,Light blue,,Saharah,,None,,,None,,Tile,ocean,None,None,Special Cool Nature Walls,1.0.0,RoomSpWallHorizon00,5486,BYpn3AZyJ8PWCAxHj,False
 office wall,False,,False,3000,750.0,White,Light blue,,Saharah,,None,,,None,,Wood,office,None,None,Special Walls,1.0.0,RoomTexWallOffice00,5218,gSMtrRvmA9mYgtKtD,False
 old wallpaper,False,,False,200,50.0,Beige,Beige,,Nook's Cranny,,Four Pane,White Wood,Glass,None,,Stone,horror,None,None,Cloth Walls,1.0.0,RoomTexWallOld00,4857,LvLyyhmz3TH3qjBi4,True

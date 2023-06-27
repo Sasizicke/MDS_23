@@ -104,7 +104,7 @@ monochromatic dot flooring,False,False,800,200,Gray,White,,Nook's Cranny,,1.0.0,
 monochromatic tile flooring,False,False,1620,405,Black,White,,Nook's Cranny,,1.0.0,den,living room,None,Panel,RoomTexFloorPanel00,5067,wyRDyuntjJqsgxEvz,True
 mossy-garden flooring,False,False,3000,750,Green,Green,,Saharah,,1.0.0,zen-style,garden,None,Nature - Green,RoomTexFloorMoss00,5234,3KGLDP2eT6i3A7jaw,False
 natural-block flooring,False,False,1380,345,Brown,Beige,,Nook's Cranny,,1.0.0,school,None,None,Parquet,RoomTexFloorParquet00,5033,BaHnYrekt2ngfWeCQ,True
-Nook Inc. flooring,False,False,,6000,Brown,Brown,1200.0,Nook Miles Shop,,1.0.0,school,shop,None,Wood Floors,RoomTexFloorFirst00,6005,tHvrMW72TDM3ezhRx,False
+Nook Inc. flooring,False,False,,6000,Brown,Brown,1200,Nook Miles Shop,,1.0.0,school,shop,None,Wood Floors,RoomTexFloorFirst00,6005,tHvrMW72TDM3ezhRx,False
 oasis flooring,True,False,3000,750,Beige,Light blue,,Saharah,,1.0.0,garden,folk art,None,Special Inorganic Floors,RoomSpFloorOasis00,5255,Apr3HrqodwkiBk5ZQ,False
 olive desert-tile flooring,False,False,2100,525,Yellow,Brown,,Nook's Cranny,,1.0.0,bathroom,facility,None,Morocco,RoomTexFloorMorocco03,6928,LwaiMzRi8kw2Xw35j,True
 orange camo flooring,False,False,1320,330,Orange,Orange,,Nook's Cranny,,1.0.0,party,child's room,None,Camouflage,RoomTexFloorCamouflage03,6845,e2cw6YYcpWZdfH38F,True

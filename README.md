@@ -1,4 +1,4 @@
 # MDS_23
 
-Preprocessed data for the semester assignment
+Pre-processed data for the semester assignment for the Animal Crossing use case (for both Cassandra and Oracle).
 

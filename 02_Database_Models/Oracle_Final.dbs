@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="OR.sql" id="Project-7c1" database="Oracle" >
+	<schema name="public" >
+		<table name="ACCESSORIES" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="ACHIEVEMENT" spec="" >
+			<column name="ACHIEVEMENTID" type="INTEGER" jt="4" mandatory="y" />
+			<column name="ACHIEVED" type="VARCHAR2" length="255" jt="12" />
+			<column name="TIMESTAMP" type="TIMESTAMP" jt="93" />
+			<column name="FLOORS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="HOUSEWARES UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="MISCELLANEOUS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="PHOTOS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="POSTERS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="RUGS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="WALL-MOUNTED UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="WALLPAPER UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="FISH UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="INSECTS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="ACCESSORIES UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="BAGS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="BOTTOMS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="DRESS-UP UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="HEADWEAR UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="SHOES UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOCKS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TOPS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<column name="UMBRELLAS UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 1" unique="PRIMARY_KEY" >
+				<column name="ACHIEVEMENTID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS FLOORS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="FLOORS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS FISH UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="FISH UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS ACCESSORIES UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="ACCESSORIES UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS INSECTS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="INSECTS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS HOUSEWARES UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="HOUSEWARES UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS MISCELLANEOUS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="MISCELLANEOUS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS PHOTOS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="PHOTOS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS RUGS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="RUGS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS POSTERS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="POSTERS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS WALL-MOUNTED UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="WALL-MOUNTED UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS WALLPAPER UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="WALLPAPER UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS UMBRELLAS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="UMBRELLAS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS TOPS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="TOPS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS SOCKS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="SOCKS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS SHOES UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="SHOES UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS HEADWEAR UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="HEADWEAR UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS DRESS-UP UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="DRESS-UP UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS BOTTOMS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="BOTTOMS UNIQUEENTRYID" />
+			</index>
+			<index name="UNQ ACHIEVEMENTS BAGS UNIQUEENTRYID" unique="UNIQUE_KEY" >
+				<column name="BAGS UNIQUEENTRYID" />
+			</index>
+			<fk name="ACCESSORIES UNIQUEENTRYID" to_schema="public" to_table="ACCESSORIES" options="" >
+				<fk_column name="ACCESSORIES UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="BAGS UNIQUEENTRYID" to_schema="public" to_table="BAGS" options="" >
+				<fk_column name="BAGS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="BOTTOMS UNIQUEENTRYID" to_schema="public" to_table="BOTTOMS" options="" >
+				<fk_column name="BOTTOMS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="DRESS-UP UNIQUEENTRYID" to_schema="public" to_table="DRESS-UP" options="" >
+				<fk_column name="DRESS-UP UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="FISH UNIQUEENTRYID" to_schema="public" to_table="FISH" options="" >
+				<fk_column name="FISH UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="FLOORS UNIQUEENTRYID" to_schema="public" to_table="FLOORS" options="" >
+				<fk_column name="FLOORS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="HEADWEAR UNIQUEENTRYID" to_schema="public" to_table="HEADWEAR" options="" >
+				<fk_column name="HEADWEAR UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="HOUSEWARES UNIQUEENTRYID" to_schema="public" to_table="HOUSEWARES" options="" >
+				<fk_column name="HOUSEWARES UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="INSECTS UNIQUEENTRYID" to_schema="public" to_table="INSECTS" options="" >
+				<fk_column name="INSECTS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="MISCELLANEOUS UNIQUEENTRYID" to_schema="public" to_table="MISCELLANEOUS" options="" >
+				<fk_column name="MISCELLANEOUS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="PHOTOS UNIQUEENTRYID" to_schema="public" to_table="PHOTOS" options="" >
+				<fk_column name="PHOTOS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="POSTERS UNIQUEENTRYID" to_schema="public" to_table="POSTERS" options="" >
+				<fk_column name="POSTERS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="RUGS UNIQUEENTRYID" to_schema="public" to_table="RUGS" options="" >
+				<fk_column name="RUGS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="SHOES UNIQUEENTRYID" to_schema="public" to_table="SHOES" options="" >
+				<fk_column name="SHOES UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="SOCKS UNIQUEENTRYID" to_schema="public" to_table="SOCKS" options="" >
+				<fk_column name="SOCKS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="TOPS UNIQUEENTRYID" to_schema="public" to_table="TOPS" options="" >
+				<fk_column name="TOPS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="UMBRELLAS UNIQUEENTRYID" to_schema="public" to_table="UMBRELLAS" options="" >
+				<fk_column name="UMBRELLAS UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="WALL-MOUNTED UNIQUEENTRYID" to_schema="public" to_table="WALL-MOUNTED" options="" >
+				<fk_column name="WALL-MOUNTED UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+			<fk name="WALLPAPER UNIQUEENTRYID" to_schema="public" to_table="WALLPAPER" options="" >
+				<fk_column name="WALLPAPER UNIQUEENTRYID" pk="UNIQUEENTRYID" />
+			</fk>
+		</table>
+		<table name="BAGS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 0" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="BOTTOMS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 4" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="DRESS-UP" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 8" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="FISH" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="WHERE/HOW" type="VARCHAR2" length="255" jt="12" />
+			<column name="WEATHER" type="VARCHAR2" length="255" jt="12" />
+			<column name="TOTAL CATCHES TO UNLOCK" type="INTEGER" jt="4" />
+			<column name="SPAWN RATES" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH JAN" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH FEB" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH MAR" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH APR" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH MAY" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH JUN" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH JUL" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH AUG" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH SEP" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH OCT" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH NOV" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH DEC" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH JAN" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH FEB" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH MAR" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH APR" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH MAY" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH JUN" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH JUL" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH AUG" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH SEP" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH OCT" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH NOV" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH DEC" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="ICON FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="CRITTERPEDIA FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="FURNITURE FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CRITTERPEDIA ID" type="INTEGER" jt="4" />
+			<column name="SHADOW" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 2" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="FLOORS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="HEADWEAR" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 9" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="HOUSEWARES" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS 0" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="INSECTS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="WHERE/HOW" type="VARCHAR2" length="255" jt="12" />
+			<column name="WEATHER" type="VARCHAR2" length="255" jt="12" />
+			<column name="TOTAL CATCHES TO UNLOCK" type="INTEGER" jt="4" />
+			<column name="SPAWN RATES" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH JAN" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH FEB" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH MAR" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH APR" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH MAY" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH JUN" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH JUL" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH AUG" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH SEP" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH OCT" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH NOV" type="VARCHAR2" length="255" jt="12" />
+			<column name="NH DEC" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH JAN" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH FEB" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH MAR" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH APR" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH MAY" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH JUN" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH JUL" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH AUG" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH SEP" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH OCT" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH NOV" type="VARCHAR2" length="255" jt="12" />
+			<column name="SH DEC" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="ICON FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="CRITTERPEDIA FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="FURNITURE FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CRITTERPEDIA ID" type="INTEGER" jt="4" />
+			<column name="SHADOW" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 3" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="MISCELLANEOUS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS 1" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="PHOTOS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS 2" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="POSTERS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS 3" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="RUGS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS 4" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="SHOES" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 5" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="SOCKS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 10" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="TOPS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 7" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="UMBRELLAS" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="SEASONAL AVAILABILITY" type="VARCHAR2" length="255" jt="12" />
+			<column name="MANNEQUIN PIECE" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="STYLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LABEL THEMES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VILLAGER EQUIPPABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SECONDARY SHAPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK ACHIEVEMENTS 11" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="WALL-MOUNTED" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS 5" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+		<table name="WALLPAPER" spec="" >
+			<column name="UNIQUEENTRYID" type="VARCHAR2" length="255" jt="12" mandatory="y" />
+			<column name="NAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIATION" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DIY" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY TITLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BODY CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PATTERN CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="PURCHASABLE" type="VARCHAR2" length="255" jt="12" />
+			<column name="BUY" type="INTEGER" jt="4" />
+			<column name="SELL" type="INTEGER" jt="4" />
+			<column name="COLOR 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="COLOR 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="SIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="MILES PRICE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SOURCE NOTES" type="VARCHAR2" length="255" jt="12" />
+			<column name="VERSION" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 1" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA CONCEPT 2" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SERIES" type="VARCHAR2" length="255" jt="12" />
+			<column name="HHA SET" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERACT" type="VARCHAR2" length="255" jt="12" />
+			<column name="TAG" type="VARCHAR2" length="255" jt="12" />
+			<column name="OUTDOOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="FILENAME" type="VARCHAR2" length="255" jt="12" />
+			<column name="INTERNAL ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VARIANT ID" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX" type="VARCHAR2" length="255" jt="12" />
+			<column name="VFX TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="KIT COST" type="INTEGER" jt="4" />
+			<column name="CUSTOMIZE" type="VARCHAR2" length="255" jt="12" />
+			<column name="DOOR DECO" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="WINDOW COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="PANE TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="CURTAIN COLOR" type="VARCHAR2" length="255" jt="12" />
+			<column name="CEILING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="SPEAKER TYPE" type="VARCHAR2" length="255" jt="12" />
+			<column name="LIGHTING TYPE" type="VARCHAR2" length="255" jt="12" />
+			<index name="PK FLOORS 6" unique="PRIMARY_KEY" >
+				<column name="UNIQUEENTRYID" />
+			</index>
+		</table>
+	</schema>
+	<layout name="Layout" id="Layout-f17" show_relation="columns" >
+		<entity schema="public" name="ACCESSORIES" color="BED3F4" x="1040" y="1616" />
+		<entity schema="public" name="ACHIEVEMENT" color="F4BEBE" x="256" y="1648" />
+		<entity schema="public" name="BAGS" color="BED3F4" x="1248" y="1616" />
+		<entity schema="public" name="BOTTOMS" color="BED3F4" x="1456" y="1616" />
+		<entity schema="public" name="DRESS-UP" color="BED3F4" x="1664" y="1616" />
+		<entity schema="public" name="FISH" color="C7F4BE" x="48" y="368" />
+		<entity schema="public" name="FLOORS" color="F4DDBE" x="1360" y="48" />
+		<entity schema="public" name="HEADWEAR" color="BED3F4" x="1872" y="1616" />
+		<entity schema="public" name="HOUSEWARES" color="F4DDBE" x="1568" y="48" />
+		<entity schema="public" name="INSECTS" color="C7F4BE" x="288" y="368" />
+		<entity schema="public" name="MISCELLANEOUS" color="F4DDBE" x="1776" y="48" />
+		<entity schema="public" name="PHOTOS" color="F4DDBE" x="1984" y="48" />
+		<entity schema="public" name="POSTERS" color="F4DDBE" x="2176" y="48" />
+		<entity schema="public" name="RUGS" color="F4DDBE" x="2384" y="48" />
+		<entity schema="public" name="SHOES" color="BED3F4" x="2080" y="1616" />
+		<entity schema="public" name="SOCKS" color="BED3F4" x="2288" y="1616" />
+		<entity schema="public" name="TOPS" color="BEBEF4" x="2512" y="1616" />
+		<entity schema="public" name="UMBRELLAS" color="BED3F4" x="2720" y="1616" />
+		<entity schema="public" name="WALL-MOUNTED" color="F4DDBE" x="2592" y="48" />
+		<entity schema="public" name="WALLPAPER" color="F4DDBE" x="2800" y="48" />
+	</layout>
+</project>

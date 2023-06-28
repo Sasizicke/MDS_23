@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="CS.sql" id="Project-dc6" database="Cassandra" >
+	<schema name="AnimalCrossing" >
+		<table name="Catching" spec="" >
+			<column name="UniqueEntryID" type="VARCHAR" jt="12" />
+			<column name="Timestamp" type="TIMESTAMP" jt="93" />
+			<column name="Achieved" type="BOOLEAN" jt="16" />
+			<column name="Name" type="VARCHAR" jt="12" />
+			<column name="Sell" type="INT" jt="4" />
+			<column name="Icon Filename" type="VARCHAR" jt="12" />
+			<column name="Critterpedia Filename" type="VARCHAR" jt="12" />
+			<column name="Furniture Filename" type="VARCHAR" jt="12" />
+			<column name="Internal ID" type="INT" jt="4" />
+			<column name="Size" type="VARCHAR" jt="12" />
+			<column name="Lighting Type" type="VARCHAR" jt="12" />
+			<column name="Critterpedia ID" type="INT" jt="4" />
+			<column name="Shadow" type="VARCHAR" jt="12" />
+			<column name="Where/How" type="VARCHAR" jt="12" />
+			<column name="Weather" type="VARCHAR" jt="12" />
+			<column name="Total Catches to Unlock" type="INT" jt="4" />
+			<column name="Spawn Rates" type="VARCHAR" jt="12" />
+			<column name="NH Jan" type="VARCHAR" jt="12" />
+			<column name="NH Feb" type="VARCHAR" jt="12" />
+			<column name="NH Mar" type="VARCHAR" jt="12" />
+			<column name="NH Apr" type="VARCHAR" jt="12" />
+			<column name="NH May" type="VARCHAR" jt="12" />
+			<column name="NH Jun" type="VARCHAR" jt="12" />
+			<column name="NH Jul" type="VARCHAR" jt="12" />
+			<column name="NH Aug" type="VARCHAR" jt="12" />
+			<column name="NH Sep" type="VARCHAR" jt="12" />
+			<column name="NH Oct" type="VARCHAR" jt="12" />
+			<column name="NH Nov" type="VARCHAR" jt="12" />
+			<column name="NH Dec" type="VARCHAR" jt="12" />
+			<column name="SH Jan" type="VARCHAR" jt="12" />
+			<column name="SH Feb" type="VARCHAR" jt="12" />
+			<column name="SH Mar" type="VARCHAR" jt="12" />
+			<column name="SH Apr" type="VARCHAR" jt="12" />
+			<column name="SH May" type="VARCHAR" jt="12" />
+			<column name="SH Jun" type="VARCHAR" jt="12" />
+			<column name="SH Jul" type="VARCHAR" jt="12" />
+			<column name="SH Aug" type="VARCHAR" jt="12" />
+			<column name="SH Sep" type="VARCHAR" jt="12" />
+			<column name="SH Oct" type="VARCHAR" jt="12" />
+			<column name="SH Nov" type="VARCHAR" jt="12" />
+			<column name="SH Dec" type="VARCHAR" jt="12" />
+			<column name="Color 1" type="VARCHAR" jt="12" />
+			<column name="Color 2" type="VARCHAR" jt="12" />
+			<index name="pk_Catching" unique="PRIMARY_KEY" >
+				<column name="UniqueEntryID" />
+			</index>
+		</table>
+		<table name="Furniture" spec="" >
+			<column name="UniqueEntryID" type="VARCHAR" jt="12" />
+			<column name="Timestamp" type="TIMESTAMP" jt="93" />
+			<column name="Achieved" type="BOOLEAN" jt="16" />
+			<column name="Name" type="VARCHAR" jt="12" />
+			<column name="Variation" type="VARCHAR" jt="12" />
+			<column name="Pattern" type="VARCHAR" jt="12" />
+			<column name="Pattern Title" type="VARCHAR" jt="12" />
+			<column name="DIY" type="BOOLEAN" jt="16" />
+			<column name="Body Title" type="VARCHAR" jt="12" />
+			<column name="Curtain Color" type="VARCHAR" jt="12" />
+			<column name="Ceiling Type" type="VARCHAR" jt="12" />
+			<column name="Speaker Type" type="VARCHAR" jt="12" />
+			<column name="Lighting Type" type="VARCHAR" jt="12" />
+			<column name="Body Customize" type="BOOLEAN" jt="16" />
+			<column name="Pattern Customize" type="BOOLEAN" jt="16" />
+			<column name="Purchasable" type="BOOLEAN" jt="16" />
+			<column name="Buy" type="INT" jt="4" />
+			<column name="Sell" type="INT" jt="4" />
+			<column name="Color 1" type="VARCHAR" jt="12" />
+			<column name="Color 2" type="VARCHAR" jt="12" />
+			<column name="Size" type="VARCHAR" jt="12" />
+			<column name="Miles Price" type="INT" jt="4" />
+			<column name="Source" type="VARCHAR" jt="12" />
+			<column name="Source Notes" type="VARCHAR" jt="12" />
+			<column name="Version" type="VARCHAR" jt="12" />
+			<column name="HHA Concept 1" type="VARCHAR" jt="12" />
+			<column name="HHA Concept 2" type="VARCHAR" jt="12" />
+			<column name="HHA Series" type="VARCHAR" jt="12" />
+			<column name="HHA Set" type="VARCHAR" jt="12" />
+			<column name="Interact" type="BOOLEAN" jt="16" />
+			<column name="Tag" type="VARCHAR" jt="12" />
+			<column name="Outdoor" type="BOOLEAN" jt="16" />
+			<column name="Filename" type="VARCHAR" jt="12" />
+			<column name="Internal ID" type="INT" jt="4" />
+			<column name="Variant ID" type="INT" jt="4" />
+			<column name="VFX" type="BOOLEAN" jt="16" />
+			<column name="VFX Type" type="VARCHAR" jt="12" />
+			<column name="Kit Cost" type="INT" jt="4" />
+			<column name="Customize" type="VARCHAR" jt="12" />
+			<column name="Door Deco" type="BOOLEAN" jt="16" />
+			<column name="Window Type" type="VARCHAR" jt="12" />
+			<column name="Window Color" type="VARCHAR" jt="12" />
+			<column name="Pane Type" type="VARCHAR" jt="12" />
+			<column name="Curtain Type" type="VARCHAR" jt="12" />
+			<index name="pk_Furniture" unique="PRIMARY_KEY" >
+				<column name="UniqueEntryID" />
+			</index>
+		</table>
+		<table name="Wardrobe" spec="" >
+			<column name="UniqueEntryID" type="VARCHAR" jt="12" />
+			<column name="Timestamp" type="TIMESTAMP" jt="93" />
+			<column name="Achieved" type="BOOLEAN" jt="16" />
+			<column name="Name" type="VARCHAR" jt="12" />
+			<column name="Variation" type="VARCHAR" jt="12" />
+			<column name="DIY" type="BOOLEAN" jt="16" />
+			<column name="Purchasable" type="BOOLEAN" jt="16" />
+			<column name="Buy" type="INT" jt="4" />
+			<column name="Sell" type="INT" jt="4" />
+			<column name="Filename" type="VARCHAR" jt="12" />
+			<column name="Internal ID" type="INT" jt="4" />
+			<column name="Type" type="VARCHAR" jt="12" />
+			<column name="Secondary Shape" type="VARCHAR" jt="12" />
+			<column name="Color 1" type="VARCHAR" jt="12" />
+			<column name="Color 2" type="VARCHAR" jt="12" />
+			<column name="Size" type="VARCHAR" jt="12" />
+			<column name="Miles Price" type="INT" jt="4" />
+			<column name="Source" type="VARCHAR" jt="12" />
+			<column name="Source Notes" type="VARCHAR" jt="12" />
+			<column name="Seasonal Availability" type="VARCHAR" jt="12" />
+			<column name="Mannequin Piece" type="BOOLEAN" jt="16" />
+			<column name="Version" type="VARCHAR" jt="12" />
+			<column name="Style" type="VARCHAR" jt="12" />
+			<column name="Label Themes" type="VARCHAR" jt="12" />
+			<column name="Villager Equippable" type="BOOLEAN" jt="16" />
+			<index name="pk_Wardrobe" unique="PRIMARY_KEY" >
+				<column name="UniqueEntryID" />
+			</index>
+		</table>
+	</schema>
+	<layout name="Layout" id="Layout-a5b" show_relation="columns" >
+		<entity schema="AnimalCrossing" name="Catching" color="BED3F4" x="448" y="48" />
+		<entity schema="AnimalCrossing" name="Furniture" color="BED3F4" x="256" y="48" />
+		<entity schema="AnimalCrossing" name="Wardrobe" color="BED3F4" x="48" y="48" />
+	</layout>
+</project>

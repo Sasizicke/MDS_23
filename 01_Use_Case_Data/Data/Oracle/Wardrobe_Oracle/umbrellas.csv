@@ -1,0 +1,68 @@
+Name,DIY,Buy,Sell,Color 1,Color 2,Size,Miles Price,Source,Source Notes,Version,Villager Equippable,Filename,Internal ID,Unique Entry ID,Purchasable
+apple umbrella,True,,1400,Yellow,Red,1x1,,Crafting,,1.0.0,True,UmbrellaApple0,9948,FPxdw28z9s2gYgjmr,False
+bat umbrella,False,840,210,Black,Black,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaBat0,6919,EZnRx49foq3M36yQ4,True
+beach umbrella,False,770,192,Blue,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaBeach0,9957,3SSFuv6LiH63jych3,True
+bear umbrella,False,1570,392,Brown,Beige,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaBear0,7167,s7KoPpysn27AeC5zi,True
+black chic umbrella,False,1620,405,Black,Black,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacodarace5,12137,p8yg9xiFwPscNDJNg,True
+black lace umbrella,False,750,187,Black,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaRace0,6915,7vuSb5AutpNQA573q,True
+blue dot parasol,False,750,187,Blue,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaPolkadot2,9956,SwKuBi2vT7K365A3p,True
+blue shiny-bows parasol,False,1620,405,Blue,White,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacodarace2,12134,BxZ4XdtfJEyWyBPFe,True
+blue umbrella,False,770,192,Blue,Blue,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaStandard2,9959,XyJaqSLnBjh5J6vLp,True
+busted umbrella,False,1570,392,Black,Black,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaBroken0,7182,gkHD9GKJT9eAekxWQ,True
+camo umbrella,False,650,162,Green,Beige,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaOutdoor0,6923,RJYB5itM7mDdtWHpv,True
+candy umbrella,False,770,192,Pink,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaGingham0,6926,F6KFg5Yhzgf78pudR,True
+cherry umbrella,True,,1400,Red,Red,1x1,,Crafting,,1.0.0,True,UmbrellaCherry0,9949,YwHY3LQXsDeM2iosy,False
+cherry-blossom umbrella,True,,2800,Pink,Green,1x1,,Crafting,,1.0.0,True,UmbrellaCherryblossom0,9945,vTu5kLPipRb69vJA3,False
+DAL umbrella,False,,1010,Blue,Blue,1x1,,Dodo Airlines,Received in mail from DAL after taking certain numbers of flights,1.0.0,True,UmbrellaDoc0,9560,vTdEjywjFjr8AkePD,False
+eggy parasol,False,750,187,Yellow,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaPolkadot1,9955,qf7Hn5CKMDMBpge9r,True
+exquisite parasol,False,1670,417,Yellow,Pink,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaChina0,7171,tFFuizXunsrHcMbEj,True
+fairy-tale umbrella,False,820,205,Green,Yellow,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaFairytale0,7175,xKBGNFJd2qpWeDWjo,True
+fish umbrella,False,,80,Blue,Light blue,1x1,,Fishing Tourney,,1.0.0,True,UmbrellaFish0,8768,bvwaqJav8wmjPj2RC,False
+frog umbrella,False,1570,392,Green,Green,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaFrog0,6925,nDBiFvLtf5KeStQNv,True
+gelato umbrella,False,750,187,Colorful,Colorful,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaTricolor0,7180,tupHZa6zDdFvobTEt,True
+ghost umbrella,False,1670,417,White,White,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaTeruteru0,6924,83zEbSL3S3dty4YjN,True
+grape umbrella,False,1550,387,Purple,Green,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaGrape0,6911,TJ9cw4XSj64u3uEsx,True
+green chic umbrella,False,1620,405,Green,Black,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacodarace4,12136,u2YWae8oz23XcT4u9,True
+green umbrella,False,770,192,Green,Green,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaStandard3,9960,8Hf4oRy3cQdundDJK,True
+hydrangea umbrella,False,750,187,Light blue,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaHydrangea0,6906,dmFbrs5ALCJG4KpzB,True
+kabuki umbrella,False,1670,417,Purple,White,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaKabuki0,7177,QenZWqPCSZr9ZCrRh,True
+kiwi umbrella,False,1550,387,Green,Brown,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaKiwi0,6908,R9WBMjgoqLwiR3h76,True
+lacy parasol,False,1550,387,White,White,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaLace0,9946,8ND7Jkfb2fxLJaR7n,True
+ladybug umbrella,False,,80,Red,Black,1x1,,Bug-Off,,1.0.0,True,UmbrellaLadybug0,8767,rHNt3mx5hEEDRSRiD,False
+leaf umbrella,True,,300,Green,Green,1x1,,Crafting,,1.0.0,True,UmbrellaLeaf0,6840,ZpYcNAofgCtnPfLj5,False
+lemon umbrella,False,770,192,Yellow,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaGingham4,9954,yKb3LfnWDwptRPAWK,True
+logo umbrella,False,650,162,Blue,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaLogo0,7172,sFtYCcv9wy78ujaZr,True
+maple-leaf umbrella,True,,2800,Orange,Orange,1x1,,Crafting,,1.0.0,True,UmbrellaAutumn0,7169,b5gL4xdKJPZPjhYZM,False
+melon umbrella,False,770,192,Green,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaGingham1,9951,oFFjNfN2G5BxasAem,True
+mini-flower-print umbrella,False,750,187,Pink,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaFlorets0,6914,G9dRhHQxBzYJB5mmE,True
+mint umbrella,False,770,192,Brown,Green,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaGingham2,9952,F6fPRcpqGqhQ5oq7F,True
+mush umbrella,True,,1200,Brown,Beige,1x1,,Crafting,,1.0.0,True,UmbrellaMushroom0,7174,LLSQNPiMBWXXdTYFo,False
+Nook Inc. umbrella,False,,3500,Green,White,1x1,700,Nook Miles Shop,,1.0.0,True,UmbrellaRco0,9561,GX9s8tDymkHYHztY3,False
+orange umbrella,True,,1400,Orange,Yellow,1x1,,Crafting,,1.0.0,True,UmbrellaOrange0,6912,ovb5ZxHTXJtBWQQxF,False
+panda umbrella,False,1570,392,White,Black,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPanda0,7170,AJkrWywbkBfFpke5b,True
+paper parasol,False,870,217,Brown,Green,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaBangasa0,7178,Brvfu2wmEsgfpsfe6,True
+patterned vinyl umbrella,False,750,187,White,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaBoundary0,6918,KzFYhiwG4WmgGuewi,True
+peach umbrella,True,,1400,Pink,Green,1x1,,Crafting,,1.0.0,True,UmbrellaPeach0,9947,e7KPGj99m2g9dvYfe,False
+pear umbrella,True,,1400,Yellow,Green,1x1,,Crafting,,1.0.0,True,UmbrellaPear0,9950,2kKFs5wG5ioHGbGda,False
+petal parasol,False,1590,397,White,Yellow,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaMargaret0,7181,5qqATjxvMpMHmcDns,True
+picnic umbrella,False,770,192,Purple,Pink,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaGingham3,9953,hvv9Bz2ey3iRvSnAL,True
+pineapple umbrella,False,1550,387,Yellow,Green,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPineapple0,6910,ohMyh5kSBGg8Zayyh,True
+pink shiny-bows parasol,False,1620,405,Pink,White,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacodarace0,7176,PTvmPPNiXMZ4jhBKX,True
+pink umbrella,False,770,192,Pink,Pink,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaSchool0,7164,Cg8DXnxz3AtYJvdPE,True
+purple chic umbrella,False,1620,405,Purple,Black,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacoda0,7183,2dXt6F6XwMf346Zbv,True
+purple shiny-bows parasol,False,1620,405,Purple,White,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacodarace1,12133,J6FrqXxBPqGNBs4sC,True
+rainbow umbrella,False,840,210,Colorful,Colorful,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaRainbow0,7179,P9bMZJY3n2dtooq5X,True
+raindrop umbrella,False,750,187,Yellow,Light blue,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaRain0,6913,Djdj6KiSLh82BHzqB,True
+red chic umbrella,False,1620,405,Red,Black,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacodarace6,12138,kKoJtAcxMDNKq7tNu,True
+red umbrella,False,770,192,Red,Red,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaStandard1,9958,Z9yCA3wawXdQsbLSs,True
+snowflake umbrella,False,1550,387,Light blue,Light blue,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaCrystal0,6905,r5RwHucDKWJPg7dkv,True
+spider umbrella,False,840,210,Black,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaSpider0,7173,aaQhimbednGniK4NF,True
+strawberry umbrella,False,1550,387,Pink,Green,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaStrawberry0,6907,kKQHooYToACDqoqBm,True
+striped umbrella,False,750,187,Gray,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaStripe0,6916,hF2THDnHbEJWTDT8L,True
+sunny parasol,False,750,187,Yellow,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaSunflower0,6904,thr45xserbQqAm6o4,True
+tartan-check umbrella,False,750,187,Red,Green,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaPlaid0,6917,HjZzRQKbMdXBKYawe,True
+Toad parasol,False,750,187,Red,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaPolkadotRed,5861,HnmPeaovKNwg7ZuBL,True
+two-tone umbrella,False,770,192,Red,Yellow,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaTwocolor0,7166,Da4xWXq9D2RFLnyYj,True
+vinyl umbrella,False,770,192,White,White,1x1,,Nook's Cranny,,1.0.0,True,UmbrellaVinyl0,7165,q4Eo8vxPLFCL4ppac,True
+watermelon umbrella,False,1550,387,Red,Green,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaWater0,6909,JTchAPvto4vHBJANw,True
+white shiny-bows parasol,False,1620,405,White,White,1x1,,Nook's Cranny,Available in Nook's Cranny (upgraded only),1.0.0,True,UmbrellaPacodarace3,12135,4btSNLBHRoocAXfgE,True
